@@ -24,7 +24,7 @@ app.use(routes);
 // sync sequelize models to the database, then turn on the server
 sequelize.sync( { force: false } ).then( () => {
   app.listen(PORT, () => {
-    console.log(`***Sequelize models synced to database. The app is listening on port ${PORT}!***`);
+    console.log(`********** Sequelize models synced to database. The app is listening on port ${PORT}! **********`);
   });
 });
 

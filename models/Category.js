@@ -1,3 +1,4 @@
+// const { NULL } = require('mysql2/lib/constants/types');
 const { Model, DataTypes } = require('sequelize');
 
 const sequelize = require('../config/connection.js');
@@ -14,7 +15,7 @@ Category.init(
     },
     category_name: {
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: false,
     }
   },
   {

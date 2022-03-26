@@ -6,6 +6,28 @@ const { Tag, Product, ProductTag } = require('../../models');
 router.get('/', (req, res) => {
   // find all tags
   // be sure to include its associated Product data
+  Tag.findAll({
+    include: [
+      // join to the model 'Product'. Return the columns in attributes array
+      {
+        model: Product,
+        attributes: ['id', 'product_name', 'price', 'stock', 'category_id']
+      }
+    ]
+  })
+  .then(dbTagData => {
+    
+    if (!dbTagData) {
+      res.status(404).json({ message: 'No tags found. Sorry.' });
+      return;
+    }
+
+    res.json(dbTagData);
+  })
+  .catch(err => {
+    console.log(err);
+    res.status(500).json(err);
+  });
 });
 
 router.get('/:id', (req, res) => {
