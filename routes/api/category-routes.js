@@ -98,7 +98,9 @@ router.delete('/:id', (req, res) => {
 
   // run this to store the name of the category in deletedCategoryName variable above.
   Category.findOne({
-    where: { id: req.params.id}
+    where: { 
+      id: req.params.id
+    }
   })
   .then(dbRow => {
     deletedCategoryName = dbRow.dataValues.category_name;
