@@ -10,7 +10,17 @@
   * [Tests](#tests)
   * [Questions?](#questions)
   ## Installation
-  n/a
+  After cloning or downloading a local copy of the repository, from a terminal install the required dependencies that are listed in the package.json file:
+  ```
+  npm install
+  ```
+  Once the node_modules folder is created and all dependencies are downloaded, type the following in your terminal:
+  
+  ```
+  npm start
+  ```
+  The *start* command effectively stands in for running "node index.js" as shown in the "scripts" property in the package.json file you download.
+    
   ## Usage
   n/a<br>
   No video found
@@ -30,7 +40,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   Legalese borrowed from <a href="https://opensource.org/licenses/MIT" target="_blank">here</a>.
 
   ## Contribute
-  n/a
+  Please contact me for ways I can improve this app.
 
   ## Tests
   n/a
