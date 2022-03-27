@@ -17,9 +17,17 @@
   Once the node_modules folder is created and all dependencies are downloaded, type the following in your terminal:
   
   ```
-  npm start
+  npm watch
   ```
-  The *start* command effectively stands in for running "node index.js" as shown in the "scripts" property in the package.json file you download.
+  The *watch* command effectively runs "nodemon server.js," which will restart the server.js file every time nodemon observes a change in code. After starting the server, open mysql shell, log in with appropriate credentials, and run:
+  ```
+  source db/schema.sql
+  ```
+  This will drop the database if it exists previously and recreate it. The next step is to seed the database with information. Exit out of mysql shell, and in your terminal run:
+  ```
+  npm seed
+  ```
+  This command should successfully populate all the tables with rows that you can now make HTTP queries on.
     
   ## Usage
   n/a<br>
