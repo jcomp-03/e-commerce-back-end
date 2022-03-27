@@ -39,7 +39,7 @@ router.get('/:id', (req, res) => {
     },
     include: [
       {
-        model: Category,
+        model: Product,
         key: 'category_id'
       }
     ]

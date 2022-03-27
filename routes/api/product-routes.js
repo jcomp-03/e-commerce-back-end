@@ -97,9 +97,8 @@ router.post('/', (req, res) => {
 
       // if no product tags, just respond
       res.status(200).json( {message: "new product created!", product} );
-    
     })
-    .then((productTagIds) => res.status(200).json( {message: "new product created!", productTagIds } ))
+    // .then((productTagIds) => res.status(200).json( {message: "new product created!", productTagIds } ))
     .catch((err) => {
       console.log(err);
       res.status(400).json(err);
@@ -172,7 +171,7 @@ router.delete('/:id', (req, res) => {
       return;
     }
     
-    res.json(`${deletedProductName} with id ${req.params.id} has been deleted.`);
+    res.json(`Product '${deletedProductName}' with id ${req.params.id} has been deleted.`);
   })
   .catch( err => {
     console.log(err);
