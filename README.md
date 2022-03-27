@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   # wk13-e-commerce-back-end
   ## Project Description
-  This app incorporates Express, a minimalist and flexible Node.js web application framework for establishing a simple and robust API that is configured to use Sequelize, a promise-based Node.js object-relational mapper (ORM) to interact with and accomplish CRUD procedures (i.e. CREATE, READ, UPDATE, & DELETE) on a MySQL database. The app naturally does not feature a front-end as the focus of this effort was to successfully demonstrate working API routes/endpoints.
+  This app incorporates Express, a minimalist and flexible Node.js web application framework for establishing a simple and robust API that is configured to use Sequelize, a promise-based Node.js object-relational mapper (ORM) to interact with and accomplish CRUD procedures (i.e. CREATE, READ, UPDATE, & DELETE) on a MySQL database.
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
