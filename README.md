@@ -31,7 +31,9 @@
     
   ## Usage
 Please visit the two Google drive links below for a walkthrough of the functionality of the code. The first link demonstrates successful HTTP requests for products and categories. The second link is for tags.
+
 https://drive.google.com/file/d/1I-WCek5ZeXnHh8CnrxLBfd12wbZdFg6R/view
+
 https://drive.google.com/file/d/1c4iYuPI2eZNxL5nkIMUpg7xH4BII2T2A/view
 
   ## License
