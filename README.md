@@ -1,7 +1,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   # wk13-e-commerce-back-end
   ## Project Description
-  In this repository, I showcase using Sequelize, an object-relational mapper configured in a Node.js application, to allow me to perform CRUD (create-read-update-delete) operations on an SQL database without ever writing a line of SQL code. Sequelize is similar to Mongoose for NoSQL-based databases in that you can use Sequelize to create and define virtual models of objects and translate HTTP methods into changes on a database. I also use the bcrypt package to hash password information, and use environment variables for protecting sensitive data
+  In this repository, I showcase using Sequelize, an object-relational mapper configured in a Node.js application, to allow me to perform CRUD (create-read-update-delete) operations on an SQL database without ever writing a line of SQL code. Sequelize is similar to Mongoose for NoSQL-based databases in that you can use Sequelize to create and define virtual models of objects and translate HTTP methods into changes on a database. The backend is built to emulate a simple e-commerce platform. I also use the bcrypt package to hash password information, and use environment variables for protecting sensitive data
   ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
